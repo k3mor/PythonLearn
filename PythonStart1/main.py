@@ -4,6 +4,7 @@ print("Helo World!")
 text1="Helo World!"
 print(f"{text1}")
 '''
+'''
 class Student:
     pass
 class Grade:
@@ -62,3 +63,13 @@ produkty = {
     "Jabłko2": Produkt(),
 }
 print(produkty)
+
+'''
+class Students:
+    print("Nowy obiekt")
+    name = "Roman"
+    surname = "Zbroiński"
+    age = 52
+
+student1 = Students()
+print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
