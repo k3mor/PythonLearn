@@ -67,13 +67,23 @@ print(produkty)
 '''
 class Students:
     print("Nowy obiekt")
-    name = "Roman"
-    surname = "Zbroiński"
-    age = 52
+    name1 = "Roman1"
+    surname1 = "Zbroiński1"
+    age1 = 52
+
+    # Konstruktor
+    def __init__(self):
+        self.name2 = "Roman2"
+        self.surname2 = "Zbroiński2"
+        self.age2 = 52
 
 def view_fields_student():
-    print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
+    print(f"Imię: {student1.name1}, Nazwisko: {student1.surname1}, Wiek: {student1.age1}")
+
+def view_fields_student_constr():
+    print(f"Imię: {student1.name2}, Nazwisko: {student1.surname2}, Wiek: {student1.age2}")
 
 student1 = Students()
 #print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
 view_fields_student()
+view_fields_student_constr()
