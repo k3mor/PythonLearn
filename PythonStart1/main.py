@@ -71,5 +71,9 @@ class Students:
     surname = "Zbroiński"
     age = 52
 
+def view_fields_student():
+    print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
+
 student1 = Students()
-print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
+#print(f"Imię: {student1.name}, Nazwisko: {student1.surname}, Wiek: {student1.age}")
+view_fields_student()
